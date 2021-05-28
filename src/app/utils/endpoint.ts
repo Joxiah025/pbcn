@@ -8,7 +8,7 @@ import { environment } from '../../environments/environment';
 export class Endpoint {
   public baseUrl = environment.apiUrl;
   // list of countries
-  countries = 'http://geodata.solutions/api/api.php?type=getCountries';
+  countries = 'https://geodata.solutions/api/api.php?type=getCountries';
   // get ip address info
   // ipinfo = 'https://ipapi.co/json/';
   ipinfo = 'https://ipinfo.io/json?token=46b4b9fcac0a83';
